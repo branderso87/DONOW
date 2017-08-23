@@ -1,5 +1,10 @@
-function name(firstName, lastName) {
-    return firstName + " " + lastName
+const data = {
+    firstName: "Jessie",
+    lastName: "Spanow"
 }
-console.log(name("Jessie", "Spanow"))
+
+function reverseName(name) {
+    return name.lastName + ", " + name.firstName
+}
+console.log(reverseName(data)
 
